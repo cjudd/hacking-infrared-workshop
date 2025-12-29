@@ -1,5 +1,4 @@
-# hacking-infrared-workshop
-# Invisible Technology: Hacking with Infrared Workshop
+s# Invisible Technology: Hacking with Infrared Workshop
 
 ![Infrared and Remote](images/IR_and_remote.png "Infrared and Remote")
 
@@ -10,7 +9,7 @@ In this hands-on workshop, you’ll uncover the hidden world of infrared communi
 This workshop blends electronics, coding, and ethical hacking to show how everyday technology really works.
 
 Recommended Age - 12+  
-Skill Level - Beginner-friendly (no prior Arduino experience required)
+Skill Level - Beginner-friendly (no prior Arduino experience required) 
 Approx. Cost - $9-20 per student (hardware varies)
 
 [Slides](https://bit.ly/infrared-kidzmash-2026)
