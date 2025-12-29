@@ -30,6 +30,27 @@ Students will need the following software installed before the workshop:
 
 * [Arduino IDE (version 2.3.7 or later)](https://www.arduino.cc/en/software/) Used to write, upload and debug code on the ESP8266
 
+## Lab: Seat the NodeMcu on the Breadboard
+
+In this lab, you’ll correctly place the NodeMCU (ESP8266) development board onto a breadboard and power it from your computer.
+
+### Step 1: Place the NodeMCU
+
+![Seat NodeMcu](../images/EPS-12_bb.png "Seat NodeMcu")
+
+1. Orient the NodeMCU so the USB connector faces outward, away from the breadboard.
+1. Carefully insert the NodeMCU into the breadboard so it straddles the center gap.
+1. Make sure the pins labeled 3V3 and VIN align with row 30 on the breadboard (or the row specified by your instructor).
+1. Press down gently until all pins are fully seated.
+
+⚠️ Important:\
+Each side of the NodeMCU must be on a separate side of the breadboard gap. If both rows are connected, the board will not work correctly.
+
+### Step 2: Connect Power
+
+1. Plug the micro-USB cable into the NodeMCU.
+1. Connect the other end of the cable to your computer’s USB port.
+1. Look for a power LED on the board to turn on, indicating it is receiving power.
 ---
 
 [NEXT](config.md)
