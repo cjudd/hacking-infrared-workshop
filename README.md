@@ -1,6 +1,6 @@
 s# Invisible Technology: Hacking with Infrared Workshop
 
-![Infrared and Remote](images/IR_and_remote.png "Infrared and Remote")
+![Infrared and Remote](docs/images/IR_and_remote.png "Infrared and Remote")
 
 Infrared (IR) is a truly invisible technology, yet it powers many of the devices we use every day—from TV remotes and motion detectors to robots and security systems.
 
@@ -17,13 +17,13 @@ Approx. Cost - $9-20 per student (hardware varies)
 ## Labs
 
 1. Getting Started
-    1. [Prerequisites](workshop/prerequisites.md)
-    1. [Configure](workshop/config.md)
-1. [Arduino Fundamentals](workshop/arduino.md)
-    1. [Serial](workshop/serial.md)
-    1. [LEDs](workshop/leds.md)
-    1. [Buttons](workshop/buttons.md)
-1. [Infrared Hacking](workshop/infrared.md)
-    1. [Receive IR](workshop/receive_ir.md)
-    1. [Transmit IR](workshop/transmit_ir.md)
-    1. [Proximity & Detection](workshop/proximity.md)
+    1. [Prerequisites](docs/prerequisites.md)
+    1. [Configure](docs/config.md)
+1. [Arduino Fundamentals](docs/arduino.md)
+    1. [Serial](docs/serial.md)
+    1. [LEDs](docs/leds.md)
+    1. [Buttons](docs/buttons.md)
+1. [Infrared Hacking](docs/infrared.md)
+    1. [Receive IR](docs/receive_ir.md)
+    1. [Transmit IR](docs/transmit_ir.md)
+    1. [Proximity & Detection](docs/proximity.md)

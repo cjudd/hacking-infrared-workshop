@@ -2,7 +2,7 @@
 
 To complete the Invisible Technology: Hacking with Infrared workshop, you’ll need a small set of hardware components and software tools. When purchased in bulk, the total cost per student is typically $9–$20, depending on supplier and kit options.
 
-![Infrared Workshop Parts](../images/parts.png "Infrared Workshop Parts")
+![Infrared Workshop Parts](images/parts.png "Infrared Workshop Parts")
 
 ## Hardware
 
@@ -46,7 +46,7 @@ In this lab, you’ll correctly place the NodeMCU (ESP8266) development board on
 
 ### Step 1: Place the NodeMCU
 
-![Seat NodeMcu](../images/EPS-12_bb.png "Seat NodeMcu")
+![Seat NodeMcu](images/EPS-12_bb.png "Seat NodeMcu")
 
 1. Orient the NodeMCU so the USB connector faces outward, away from the breadboard.
 1. Carefully insert the NodeMCU into the breadboard so it straddles the center gap.
