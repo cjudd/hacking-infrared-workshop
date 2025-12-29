@@ -50,11 +50,10 @@ In this lab, you’ll correctly place the NodeMCU (ESP8266) development board on
 
 1. Orient the NodeMCU so the USB connector faces outward, away from the breadboard.
 1. Carefully insert the NodeMCU into the breadboard so it straddles the center gap.
-1. Make sure the pins labeled 3V3 and VIN align with row 30 on the breadboard (or the row specified by your instructor).
+1. Make sure the pins labeled 3V3 and Vin align with row 30 on the breadboard.
 1. Press down gently until all pins are fully seated.
 
-⚠️ Important:\
-Each side of the NodeMCU must be on a separate side of the breadboard gap. If both rows are connected, the board will not work correctly.
+⚠️ Important: Each side of the NodeMCU must be on a separate side of the breadboard gap. If both rows are connected, the board will not work correctly.
 
 ### Step 2: Connect Power
 
