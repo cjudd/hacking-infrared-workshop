@@ -8,8 +8,8 @@ In this hands-on workshop, you’ll uncover the hidden world of infrared communi
 
 This workshop blends electronics, coding, and ethical hacking to show how everyday technology really works.
 
-Recommended Age - 12+  
-Skill Level - Beginner-friendly (no prior Arduino experience required) 
+Recommended Age - 12+  \
+Skill Level - Beginner-friendly (no prior Arduino experience required) \
 Approx. Cost - $9-20 per student (hardware varies)
 
 [Slides](https://bit.ly/infrared-kidzmash-2026)
