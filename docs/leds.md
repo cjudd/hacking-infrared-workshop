@@ -39,9 +39,25 @@ LED cathode (short leg) → – rail
 
 ### Code
 
-```c++:../code/Blink_External_LED.ino
+```c++
+#define LED D2 // GPIO4 (D2)
 
+void setup() {
+  Serial.begin(115200);
+  delay(200);
+  pinMode(LED, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED, HIGH);
+  Serial.println("LED on");
+  delay(1000);
+  digitalWrite(LED, LOW);
+  Serial.println("LED off");
+  delay(1000);
+}
 ```
+[Blink_External_LED.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/2af4557c6bee7148749665220f741279e51575bf/code/Blink_External_LED.ino)
 
 ### Upload and Test
 1. Upload the sketch
@@ -50,3 +66,11 @@ LED cathode (short leg) → – rail
     1. Click Upload.
 1.  Verify it works
     * Your external LED should blink on/off every second.
+
+### Troubleshooting
+* LED doesn’t blink
+    * Flip the LED (swap anode/cathode).
+    * Make sure D2 is the pin you actually wired to (not D1/D3 by accident).
+    * Confirm the NodeMCU GND is connected to the – rail.
+* LED is very dim or not lighting
+    * Check that the LED legs are not in the same connected row.
