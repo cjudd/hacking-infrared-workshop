@@ -9,7 +9,7 @@ To complete the Invisible Technology: Hacking with Infrared workshop, you’ll n
 Each student or team (2–3 students recommended) should have access to the following components:
 
 * Core Electronics
-    * [Nodemcu WIFI Development Board Based ESP8266](https://www.alibaba.com/product-detail/CP2102-Nodemcu-WIFI-Development-Board-Based_1601374322874.html)\
+    * [NodeMCU WIFI Development Board Based ESP8266](https://www.alibaba.com/product-detail/CP2102-Nodemcu-WIFI-Development-Board-Based_1601374322874.html)\
     (Wi-Fi enabled microcontroller)
     * [Micro USB Cable](https://www.amazon.com/dp/B01GKWE3E0)\
     (for programming and power)
@@ -46,7 +46,7 @@ In this lab, you’ll correctly place the NodeMCU (ESP8266) development board on
 
 ### Step 1: Place the NodeMCU
 
-![Seat NodeMcu](images/EPS-12_bb.png "Seat NodeMcu")
+![Seat NodeMCU](images/EPS-12_bb.png "Seat NodeMCU")
 
 1. Orient the NodeMCU so the USB connector faces outward, away from the breadboard.
 1. Carefully insert the NodeMCU into the breadboard so it straddles the center gap.
