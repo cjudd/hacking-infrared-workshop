@@ -1,4 +1,4 @@
-s# Invisible Technology: Hacking with Infrared Workshop
+# Invisible Technology: Hacking with Infrared Workshop
 
 ![Infrared and Remote](docs/images/IR_and_remote.png "Infrared and Remote")
 
