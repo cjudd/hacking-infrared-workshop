@@ -9,35 +9,35 @@ To complete the Invisible Technology: Hacking with Infrared workshop, you’ll n
 Each student or team (2–3 students recommended) should have access to the following components:
 
 * Core Electronics
-    * [NodeMCU WIFI Development Board Based ESP8266](https://www.alibaba.com/product-detail/CP2102-Nodemcu-WIFI-Development-Board-Based_1601374322874.html)\
+    * <a href="https://www.alibaba.com/product-detail/CP2102-Nodemcu-WIFI-Development-Board-Based_1601374322874.html" target="_blank">NodeMCU WIFI Development Board Based ESP8266</a>\
     (Wi-Fi enabled microcontroller)
-    * [Micro USB Cable](https://www.amazon.com/dp/B01GKWE3E0)\
+    * <a href="https://www.amazon.com/dp/B01GKWE3E0" target="_blank">Micro USB Cable</a>\
     (for programming and power)
-    * [Breadboard](https://www.alibaba.com/product-detail/Can-be-spliced-solderless-breadboard-solderless_1601096435202.html)\
+    * <a href="https://www.alibaba.com/product-detail/Can-be-spliced-solderless-breadboard-solderless_1601096435202.html" target="_blank">Breadboard</a>\
     (solderless prototyping board)
     * Jumper wires\
     (male-to-male recommended)
 * Input & Output Components
-    * [Tactile Tact Push Button Switchs](https://www.amazon.com/dp/B09R42T3CB)
+    * <a href="https://www.amazon.com/dp/B09R42T3CB" target="_blank">Tactile Tact Push Button Switchs</a>
     * LEDs (assorted colors)
 * Infrared Components
-    * [5 mm IR Emitter (IR LED)](https://www.amazon.com/dp/B07TLBJR5J?th=1)\
+    * <a href="https://www.amazon.com/dp/B07TLBJR5J?th=1" target="_blank">5 mm IR Emitter (IR LED)</a>\
     Used for transmitting infrared signals
-    * [5 mm IR Receiver](https://www.amazon.com/dp/B07TLBJR5J?th=1)\
+    * <a href="https://www.amazon.com/dp/B07TLBJR5J?th=1" target="_blank">5 mm IR Receiver</a>\
     Used to detect basic IR signals
-    * [VS18388 IR Receiver](https://www.amazon.com/dp/B07TLBJR5J?th=1)\
+    * <a href="https://www.amazon.com/dp/B07TLBJR5J?th=1" target="_blank">VS18388 IR Receiver</a>\
     Optimized for decoding remote control signals
-    * [IR Infrared Obstical Avoidance Sensor (HW-201)](https://www.amazon.com/Avoidance-Reflective-Photoelectric-Compatible-Raspberry/dp/B08DR1W3BK/)\
+    * <a href="https://www.amazon.com/Avoidance-Reflective-Photoelectric-Compatible-Raspberry/dp/B08DR1W3BK/" target="_blank">IR Infrared Obstical Avoidance Sensor (HW-201)</a>\
     Used for proximity detection and alarm projects
     * Infrared Remote Control\
-    ([HX1838](https://www.alibaba.com/product-detail/HX1838-Infrared-Remote-Control-Kit-Wireless_1601597724033.html) or any standard IR remote)
+    ( <a href="https://www.alibaba.com/product-detail/HX 1838-Infrared-Remote-Control-Kit-Wireless_1601597724033.html" target="_blank">HX1838<a> or any standard IR remote )
 
 
 ## Software
 
 Students will need the following software installed before the workshop:
 
-* [Arduino IDE (version 2.3.7 or later)](https://www.arduino.cc/en/software/)\
+* <a href="https://www.arduino.cc/en/software/" target="_blank">Arduino IDE (version 2.3.7 or later)</a>\
 Used to write, upload and debug code on the ESP8266
 
 ## Lab: Seat the NodeMcu on the Breadboard
