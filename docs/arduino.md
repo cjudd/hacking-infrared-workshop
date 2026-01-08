@@ -1,14 +1,31 @@
 # Arduino Fundamentals
 
-A NodeMCU WIFI Development Board is an Arduino device so knowing some fundamental Arduino concepts will make the rest of the tutorial easier. During these fundamentals, you will learn about concepts like writing code as well as using serial, LEDs and buttons.
+The NodeMCU WiFi Development Board is an Arduino-compatible device. Learning a few Arduino fundamentals will make the rest of this workshop much easier to understand and more fun.
 
-## Arduino Code
+In this section, you’ll learn:
+* How Arduino programs work
+* How code is structured
+* How to send messages to your computer (Serial)
+* How to control LEDs and read buttons
 
-Arduino code also referred to as sketches is essentially C+, with a simplified application programming interface (API) and some automated preprocessing to make it easier for beginners. The code is often saved in a file with an ino extension.
+These skills are the foundation for everything you’ll build later—including infrared projects.
 
-Every Arduino is made up of two functions, a setup and loop function. The set up is called one when the Arduino is powered up or the code is uploaded. The loop function is called repeatedly until power is removed or new code is uploaded. Your code to make the Arduino do something goes into these functions.
+## Arduino Code (Sketches)
 
-```C
+Arduino programs are called sketches.
+
+A sketch is written in C++, but Arduino makes it easier for beginners by:
+
+* Providing a simple programming interface (API)
+* Automatically handling some setup behind the scenes
+
+Arduino sketches are usually saved with a .ino file extension.
+
+## The Two Most Important Functions
+
+Every Arduino sketch has two main functions:
+
+```cpp
 void setup() {
 }
 
@@ -16,15 +33,70 @@ void loop() {
 }
 ```
 
-This example of code I often have in a 
+`setup()`
+* Runs **once**
+* Executes when the board powers on or when you upload new code
+* Used to:
+    * Set up pins
+    * Start Serial communications
+    * Initialize hardware
+
+`loop()`
+* Runs **over and over forever**
+* This is where your main program logic goes
+* The board will keep repeating this code until:
+    * Power is removed, or
+    * New code is uploaded
+
+Think of it like:
+* `setup()` = getting ready
+* `loop()` = doing the job repeatedly
+
+
+repeatedly
+
+💡**Helpful Tip**
+>If your code has an error and keeps repeating something you don’t want, it can be useful to replace it with an empty sketch like the one above.
+
+Some developers keep a file called `clean.ino` that contains only an empty `setup()` and `loop()` so they can quickly upload it and stop a misbehaving program.
+
+## Uploading Code to the NodeMCU
+
+After writing your code in the Arduino IDE:
+1. Connect the NodeMCU to your computer using the USB cable
+1. Select the correct Board and Port
+1. Click the Upload button (the right-facing arrow ▶️)
+
+The Arduino IDE will compile your code and send it to the board.
+
 
 ## Arduino Hardware
 
-Each Arduino device is different and each come with a documented pinout that explains the physical capabilities of the device. In this tutorial, you will use the GPIO (General Purpose Input/Output) or Digital pins as well as power (3V3) and ground (GND). 
+Every Arduino-compatible board is different, but each one comes with a **pinout diagram** that explains what its pins can do.
 
 ![NodeMCU ESP-12 Pinout](images/NodeMCU-ESP12E-Pinouts.png)
 
+In this workshop, you’ll mainly use:
+* GPIO (Digital) Pins\
+  Used to turn things on and off (LEDs, IR transmitters, etc.)
+* 3V3 (3.3 volts)\
+  Supplies power to components
+* GND (Ground)\
+  The return path for electricity—every circuit needs this
 
+You’ll use these pins to:
+* Power components
+* Read inputs like buttons
+* Control outputs like LEDs and infrared emitters
+
+## Why This Matters
+
+Understanding these fundamentals means you’ll be able to:
+* Read Arduino examples with confidence
+* Debug problems when things don’t work
+* Build more complex projects without guessing
+
+> Every advanced Arduino project—robots, sensors, IR hacking—starts with these basics.
 
 1. [Serial](serial.md)
 1. [LEDs](leds.md)
