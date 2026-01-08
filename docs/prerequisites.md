@@ -60,6 +60,5 @@ In this lab, you’ll correctly place the NodeMCU (ESP8266) development board on
 1. Plug the micro-USB cable into the NodeMCU.
 1. Connect the other end of the cable to your computer’s USB port.
 1. Look for a power LED on the board to turn on, indicating it is receiving power.
----
 
 [NEXT](config.md)
