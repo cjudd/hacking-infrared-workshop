@@ -137,3 +137,9 @@ Because the LED is external, the board controls it through this GPIO pin rather 
     * Confirm the NodeMCU GND is connected to the – rail.
 * LED is very dim or not lighting
     * Check that the LED legs are not in the same connected row.
+
+1. [Serial](serial.md)
+1. [LEDs](leds.md)
+1. [Buttons](buttons.md)
+
+[NEXT](buttons.md)
