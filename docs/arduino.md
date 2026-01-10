@@ -99,6 +99,8 @@ Understanding these fundamentals means you’ll be able to:
 
 > Every advanced Arduino project—robots, sensors, IR hacking—starts with these basics.
 
+---
+
 1. [Serial](serial.md)
 1. [LEDs](leds.md)
 1. [Buttons](buttons.md)
