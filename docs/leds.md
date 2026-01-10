@@ -1,5 +1,64 @@
 # LEDs
 
+In programming, the first thing you usually learn is how to print “Hello World”.
+
+In electronics, blinking an LED is the same thing.
+
+It proves:
+* Your board has power
+* Your code uploaded correctly
+* Your pin works
+* Your logic works
+
+If an LED blinks, everything else can work.
+
+## Lab: Blink Onboard LED
+
+In this lab you’ll blink an LED once per second that is embedded on the NodeMCU board.
+
+![Blink OnBoard LED](images/Blink_Onboard_LED.png)
+
+### Wiring Table (source → destination)
+
+Nothing to wire. LED is embedded in the board
+
+### Code
+
+```c++
+#define ONBOARD_LED 16
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(ONBOARD_LED, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(ONBOARD_LED, HIGH);
+  Serial.println("LED on");
+  delay(1000);
+  digitalWrite(ONBOARD_LED, LOW);
+  Serial.println("LED off");
+  delay(1000);
+}
+```
+
+[Blink_Onboard_LED.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/2af4557c6bee7148749665220f741279e51575bf/code/Blink_Onboard_LED.ino)
+
+In this code, `ONBOARD_LED` is a constant set to the value `16`, which represents the pin connected to the built-in LED on the board.
+
+In the `setup()` function, the `pinMode()` function is used to configure the onboard LED pin as an output, meaning the board will send an electrical signal out on that pin.
+
+Inside the `loop()` function, the `digitalWrite()` function is used to send a `HIGH` signal to the pin, which turns the LED on. The program then pauses for 1000 milliseconds (1 second) using `delay()`.
+
+Next, `digitalWrite()` sends a `LOW` signal to the pin, turning the LED off. The program waits another second and then repeats this process over and over again.
+
+### Upload and Test
+1. Upload the sketch
+    1. In Arduino IDE, select the correct board (commonly NodeMCU 1.0 (ESP-12E Module)).
+    1. Select the correct Port.
+    1. Click Upload.
+1.  Verify it works
+    * A blue LED on your board should blink on/off every second.
 
 ## Lab: Blink an External LED
 
@@ -9,11 +68,11 @@ In this lab you’ll wire an external LED to the NodeMCU and blink it once per s
 
 ### Wiring Table (source → destination)
 
-NodeMCU GND → – rail
-NodeMCU D2 (GPIO4) → LED anode (long leg)
+NodeMCU GND → – rail\
+NodeMCU D2 (GPIO4) → LED anode (long leg)\
 LED cathode (short leg) → – rail
 
-✅ The LED is powered directly from the GPIO pin (D2).
+✅ The LED is powered directly from the GPIO pin (D2).\
 ⚠️ Use a resistor (typically 220Ω–330Ω) to protect the LED and the NodeMCU pin.
 
 ### Step-by-step
@@ -58,6 +117,10 @@ void loop() {
 }
 ```
 [Blink_External_LED.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/2af4557c6bee7148749665220f741279e51575bf/code/Blink_External_LED.ino)
+
+This code is similar to the previous example, but instead of using the onboard LED pin, we define `LED` as `D2` (GPIO4). This is the pin connected to the anode (long leg) of the external LED that we wired on the breadboard.
+
+Because the LED is external, the board controls it through this GPIO pin rather than an internal connection.
 
 ### Upload and Test
 1. Upload the sketch

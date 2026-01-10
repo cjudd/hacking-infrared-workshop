@@ -25,7 +25,7 @@ Arduino sketches are usually saved with a .ino file extension.
 
 Every Arduino sketch has two main functions:
 
-```cpp
+```c++
 void setup() {
 }
 
@@ -52,9 +52,6 @@ Think of it like:
 * `setup()` = getting ready
 * `loop()` = doing the job repeatedly
 
-
-repeatedly
-
 💡**Helpful Tip**
 >If your code has an error and keeps repeating something you don’t want, it can be useful to replace it with an empty sketch like the one above.
 
@@ -69,7 +66,6 @@ After writing your code in the Arduino IDE:
 
 The Arduino IDE will compile your code and send it to the board.
 
-
 ## Arduino Hardware
 
 Every Arduino-compatible board is different, but each one comes with a **pinout diagram** that explains what its pins can do.
@@ -83,6 +79,9 @@ In this workshop, you’ll mainly use:
   Supplies power to components
 * GND (Ground)\
   The return path for electricity—every circuit needs this
+
+💡**Helpful Tip**
+> GPIO stands for General Purpose Input/Output, meaning the pin is not dedicated to a single function and can be configured in software as either an input or an output.
 
 You’ll use these pins to:
 * Power components
