@@ -40,6 +40,8 @@ This program demonstrates how the Arduino runs code in the `setup()` and `loop()
     1. In the Serial Monitor window, set the baud rate to match your code (for example, 115200).
     1. Watch the messages appear and verify they match what your program is printing.
 
+
+
 1. [Serial](serial.md)
 1. [LEDs](leds.md)
 1. [Buttons](buttons.md)
