@@ -57,6 +57,8 @@ Think of it like:
 
 Some developers keep a file called `clean.ino` that contains only an empty `setup()` and `loop()` so they can quickly upload it and stop a misbehaving program.
 
+[clear.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/2af4557c6bee7148749665220f741279e51575bf/code/clear.ino)
+
 ## Uploading Code to the NodeMCU
 
 After writing your code in the Arduino IDE:
