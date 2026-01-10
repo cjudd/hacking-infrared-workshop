@@ -16,7 +16,7 @@ If an LED blinks, everything else can work.
 
 In this lab you’ll blink an LED once per second that is embedded on the NodeMCU board.
 
-![Blink OnBoard LED](images/Blink_Onboard_LED.png)
+![Blink OnBoard LED Wiring](images/Blink_Onboard_LED.png)
 
 ### Wiring Table (source → destination)
 
@@ -64,7 +64,7 @@ Next, `digitalWrite()` sends a `LOW` signal to the pin, turning the LED off. The
 
 In this lab you’ll wire a colored external LED to the NodeMCU and blink it once per second.
 
-![Blink an External LED](images/Blink_External_LED.png)
+![Blink an External LED Wiring](images/Blink_External_LED.png)
 
 ### Wiring Table (source → destination)
 

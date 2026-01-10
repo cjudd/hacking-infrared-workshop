@@ -32,7 +32,7 @@ Your code decides what that means.
 
 In this lab you’ll wire a pushbutton and an external LED so that pressing the button turns the LED on. When you release the button, the LED turns off.
 
-![Button & LED](images/Button_LED_bb.png)
+![Button & LED Wiring](images/Button_LED_bb.png)
 
 ### Wiring Table (source → destination)
 

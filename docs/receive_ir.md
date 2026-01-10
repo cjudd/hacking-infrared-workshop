@@ -18,7 +18,7 @@ This sets the foundation for more advanced projects, like building a universal r
 
 In this lab, you will connect an IR receiver module to the NodeMCU and read IR signals from a remote control. You’ll confirm the receiver is working by viewing decoded output in the Serial Monitor.
 
-![IR Receiver](images/IR_Receiver_bb.png)
+![IR Receiver Wiring](images/IR_Receiver_bb.png)
 
 ### Wiring Table (source → destination)
 
@@ -66,7 +66,7 @@ void print(String title, String body) {
 }
 ```
 
-[IR_Receiver_Verbose.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/main/code/IR_Receiver_Verbose.ino)
+[IR_Receiver_Verbose.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/main/code/IR_Receive_Verbose.ino)
 
 This sketch turns your NodeMCU into an IR “listener.” It sets up an `IRrecv` object on pin D1 and starts the IR receiver using `enableIRIn()`. Inside the `loop()`, the code checks whether a complete IR message has been received using `decode()`. When a signal is detected, it prints the same capture in several formats: a hex value (compact ID), a human-readable interpretation (protocol + command when possible), a source-code representation you can copy/paste later to replay the signal, and timing details that show the pulse pattern. After printing, `resume()` tells the receiver to get ready for the next signal.
 
@@ -104,7 +104,7 @@ This sketch turns your NodeMCU into an IR “listener.” It sets up an `IRrecv`
 
 In this lab, you’ll use an IR remote control to toggle an external LED on and off. Your NodeMCU will “listen” for a specific IR button press, recognize the IR code, and then flip the LED state each time that button is pressed.
 
-![IR Receiver and LED](images/IR_Remote_LED_bb.png)
+![IR Receiver and LED Wiring](images/IR_Remote_LED_bb.png)
 
 ### Wiring Table (source → destination)
 
@@ -200,7 +200,7 @@ This sketch connects an IR receiver to pin D1 and an LED to pin D5 (GPIO14). The
 
 You will wire an IR receiver plus three LEDs (red, yellow, green) as shown in the diagram. Then you’ll upload a sketch that toggles each LED using three different remote buttons (three different IR codes).
 
-![<IR Remote Stoplight Wiring>](images/IR_Remote_Stop_Light_bb.png)
+![IR Remote Stop Light Wiring](images/IR_Remote_Stop_Light_bb.png)
 
 ### Wiring Table (source → destination)
 
