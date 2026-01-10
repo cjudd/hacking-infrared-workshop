@@ -105,4 +105,4 @@ In the `loop()` function, the program continuously reads the state of the button
 1. [LEDs](leds.md)
 1. [Buttons](buttons.md)
 
-[NEXT](buttons.md)
+[NEXT](infrared.md)
