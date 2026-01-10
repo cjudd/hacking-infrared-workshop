@@ -42,7 +42,7 @@ void loop() {
 }
 ```
 
-[Blink_Onboard_LED.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/2af4557c6bee7148749665220f741279e51575bf/code/Blink_Onboard_LED.ino)
+[Blink_Onboard_LED.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/main/code/Blink_Onboard_LED.ino)
 
 In this code, `ONBOARD_LED` is a constant set to the value `16`, which represents the pin connected to the built-in LED on the board.
 
@@ -116,7 +116,7 @@ void loop() {
   delay(1000);
 }
 ```
-[Blink_External_LED.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/2af4557c6bee7148749665220f741279e51575bf/code/Blink_External_LED.ino)
+[Blink_External_LED.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/main/code/Blink_External_LED.ino)
 
 This code is similar to the previous example, but instead of using the onboard LED pin, we define `LED` as `D2` (GPIO4). This is the pin connected to the anode (long leg) of the external LED that we wired on the breadboard.
 

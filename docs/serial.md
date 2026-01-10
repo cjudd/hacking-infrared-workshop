@@ -25,7 +25,7 @@ void loop() {
 }
 ```
 
-[SerialOutput.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/2af4557c6bee7148749665220f741279e51575bf/code/SerialOutput.ino)
+[SerialOutput.ino](https://github.com/cjudd/hacking-infrared-workshop/blob/main/code/SerialOutput.ino)
 
 This program demonstrates how the Arduino runs code in the `setup()` and `loop()` functions and uses Serial messages to show what is happening. When the board first powers on or the code is uploaded, the `setup()` function runs once. Inside `setup()`, Serial communication is started at a speed of 115200 baud, the program waits briefly to allow the connection to stabilize, and then prints the message “Setup” to the Serial Monitor. After `setup()` finishes, the Arduino repeatedly runs the `loop()` function. Each time through the loop, the program prints “Hello World” to the Serial Monitor, waits for 2000 milliseconds or two seconds, and then repeats the process. This makes it easy to see that `setup()` runs only once, while `loop()` continues to run over and over again.
 
