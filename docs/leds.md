@@ -60,17 +60,17 @@ Next, `digitalWrite()` sends a `LOW` signal to the pin, turning the LED off. The
 1.  Verify it works
     * A blue LED on your board should blink on/off every second.
 
-## Lab: Blink an External LED
+## Lab: Blink an External Colored LED
 
-In this lab you’ll wire an external LED to the NodeMCU and blink it once per second.
+In this lab you’ll wire a colored external LED to the NodeMCU and blink it once per second.
 
 ![Blink an External LED](images/Blink_External_LED.png)
 
 ### Wiring Table (source → destination)
 
 NodeMCU GND → – rail\
-NodeMCU D2 (GPIO4) → LED anode (long leg)\
-LED cathode (short leg) → – rail
+NodeMCU D2 (GPIO4) → Colored LED anode (long leg)\
+Colored LED cathode (short leg) → – rail
 
 ✅ The LED is powered directly from the GPIO pin (D2).\
 ⚠️ Use a resistor (typically 220Ω–330Ω) to protect the LED and the NodeMCU pin.
@@ -78,22 +78,21 @@ LED cathode (short leg) → – rail
 ### Step-by-step
 
 1. Connect ground (the “return path”)
-
     1. Run a jumper wire from NodeMCU GND to the breadboard – rail (ground rail).
         * This matches the black wire in the image going down to the rail.
 
-1. Place the LED
-    1. Insert the LED into the breadboard near the left side.
-    1. Make sure the LED legs are in different rows (not the same connected row).
+1. Place the colored LED
+    1. Insert the colored LED into the breadboard near the left side.
+    1. Make sure the colored LED legs are in different rows (not the same connected row).
     1. Identify the legs:
         * Anode = long leg (+)
         * Cathode = short leg (–) and/or the flat side of the LED body
 
-1.  Wire D2 to the LED anode
+1.  Wire D2 to the colored LED anode
     1. Connect a jumper wire from NodeMCU D2 to the LED anode (long leg) row.
         * This matches the long yellow wire in the image.
 
-1. Wire LED cathode to ground
+1. Wire colored LED cathode to ground
     1. Connect the LED cathode (short leg) row to the - rail.
 
 ### Code
@@ -137,6 +136,23 @@ Because the LED is external, the board controls it through this GPIO pin rather 
     * Confirm the NodeMCU GND is connected to the – rail.
 * LED is very dim or not lighting
     * Check that the LED legs are not in the same connected row.
+
+## Lab: Blink External Clear Infrared LED
+
+In this lab, you’ll replace the visible (colored) LED with a clear infrared (IR) LED and use the same blinking code.
+
+1. Remove the colored LED from the breadboard.
+1. Insert the clear infrared LED in the same position, keeping the anode (long leg) and cathode (short leg) oriented the same way.
+1. Upload the same blink sketch used in the previous lab.
+
+### Observe and Explore
+
+* Do you see the infrared LED blinking with your eyes?
+* Now point your phone’s camera at the LED while it’s running.
+* Do you see the LED flashing on your phone’s screen?
+
+💡 Why this matters:
+Infrared light is invisible to humans, but many cameras can detect it. This shows that the LED is turning on and off—you just can’t see it without the right tool.
 
 ---
 
