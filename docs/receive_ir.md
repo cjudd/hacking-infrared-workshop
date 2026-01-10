@@ -23,8 +23,8 @@ In this lab, you will connect an IR receiver module to the NodeMCU and read IR s
 ### Wiring Table (source → destination)
 
 NodeMCU 3V3 → IR receiver VCC (+)\
-NodeMCU GND → rail -\
-IR receiver GND (–) → rail-\
+NodeMCU GND → - rail\
+IR receiver GND (–) → - rail\
 NodeMCU D1 (GPIO5) → IR receiver OUT / SIG\
 
 💡 Most IR receiver modules have 3 pins: VCC, GND, and OUT (sometimes labeled SIG).
@@ -109,11 +109,11 @@ In this lab, you’ll use an IR remote control to toggle an external LED on and 
 ### Wiring Table (source → destination)
 
 NodeMCU 3V3 → IR receiver VCC (+)\
-NodeMCU GND → rail -\
-IR receiver GND (–) → rail -\
+NodeMCU GND → - rail\
+IR receiver GND (–) → - rail\
 NodeMCU D1 (GPIO5) → IR receiver OUT / SIG\
 NodeMCU D5 (GPIO14) → LED anode (long leg)\
-LED cathode (short leg) → rail -
+LED cathode (short leg) → - rail
 
 ### Code
 
@@ -205,18 +205,18 @@ You will wire an IR receiver plus three LEDs (red, yellow, green) as shown in th
 ### Wiring Table (source → destination)
 
 NodeMCU 3V3 → IR receiver VCC (+)\
-NodeMCU GND → rail -\
-IR receiver GND (–) → rail -\
+NodeMCU GND → - rail\
+IR receiver GND (–) → - rail\
 NodeMCU D1 (GPIO5) → IR receiver OUT / SIG\
 
 NodeMCU D5 (GPIO14) → **Red LED** anode (long leg)\
-Red LED cathode (short leg) → rail -\
+Red LED cathode (short leg) → - rail\
 
 NodeMCU D6 (GPIO12) → **Yellow LED** anode (long leg)\
-Yellow LED cathode (short leg) → rail -\
+Yellow LED cathode (short leg) → - rail\
 
 NodeMCU D7 (GPIO13) → **Green LED** anode (long leg)\
-Green LED cathode (short leg) → → rail -
+Green LED cathode (short leg) → - rail
 
 ### Code
 
