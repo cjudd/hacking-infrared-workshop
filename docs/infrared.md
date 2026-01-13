@@ -11,5 +11,6 @@ At a basic level, infrared communication works by turning an IR LED on and off v
 1. [Receive IR](receive_ir.md)
 1. [Transmit IR](transmit_ir.md)
 1. [Proximity & Detection](proximity.md)
+1. [Tripwire](tripwire.md)
 
 [NEXT](receive_ir.md)

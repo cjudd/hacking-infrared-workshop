@@ -309,5 +309,6 @@ This sketch configures the IR receiver on pin D1 and sets three GPIO pins (D5, D
 1. [Receive IR](receive_ir.md)
 1. [Transmit IR](transmit_ir.md)
 1. [Proximity & Detection](proximity.md)
+1. [Tripwire](tripwire.md)
 
 [NEXT](transmit_ir.md)

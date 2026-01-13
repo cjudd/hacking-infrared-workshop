@@ -84,3 +84,6 @@ This sketch reads the sensor’s digital output on D3 and uses it to control an 
 1. [Receive IR](receive_ir.md)
 1. [Transmit IR](transmit_ir.md)
 1. [Proximity & Detection](proximity.md)
+1. [Tripwire](tripwire.md)
+
+[NEXT](tripwire.md)
