@@ -4,7 +4,7 @@ These steps will set up the **Arduino IDE** to program a **NodeMCU (ESP8266)** a
 
 ## 1) Install Arduino IDE
 
-1. Go to: https://www.arduino.cc/en/software/
+1. Go to: <a href="https://www.arduino.cc/en/software/" target="_blank">Arduino IDE (version 2.3.7 or later)</a>
 1. Download the Arduino IDE for your operating system (Windows / macOS / Linux).
 1. Install it:
    - **Windows:** run the installer and accept the defaults.
