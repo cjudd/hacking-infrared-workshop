@@ -12,14 +12,6 @@ void setup() {
 
 void loop() {
   int motion = digitalRead(PIR_PIN);
-
-  if (motion == HIGH) {
-    digitalWrite(LED, HIGH);
-    Serial.println("Motion detected!");
-  } else {
-    digitalWrite(LED, LOW);
-    Serial.println("No motion");
-  }
-
+  digitalWrite(LED, motion);
   delay(100);
 }
